@@ -1,0 +1,7 @@
+parameters:
+#    pma_content.example.class: Pma\ContentBundle\Example
+
+services:
+#    pma_content.example:
+#        class: %pma_content.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

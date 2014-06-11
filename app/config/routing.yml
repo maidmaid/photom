@@ -1,0 +1,4 @@
+pma_content:
+    resource: "@PmaContentBundle/Resources/config/routing.yml"
+    prefix:   /
+
