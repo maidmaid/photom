@@ -1,0 +1,9 @@
+<div id="{{ id }}" class="row service">
+    <div class="col-lg-7 {% if right %} col-lg-push-5 {% endif %}">
+        <h2 class="title">{{ title }}</h2>
+        <div class="description">{{ description|raw }}</div>
+    </div>
+        <div class="col-lg-5 {% if right %} col-lg-pull-7 {% endif %}">
+        <img class="img-responsive" alt="" src="{{ image }}">
+    </div>
+</div>

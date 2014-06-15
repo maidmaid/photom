@@ -1,3 +1,7 @@
 pma_content_homepage:
     pattern:  /
     defaults: { _controller: PmaContentBundle:Content:homePage }
+
+pma_content_photopage:
+    pattern:  /photo
+    defaults: { _controller: PmaContentBundle:Content:photoPage }
