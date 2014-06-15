@@ -1,20 +1,22 @@
 {% extends '::base.html.twig' %}
+{% trans_default_domain "homepage" %}
+
 {% block body %}
     <div class="container">
         <div class="col-lg-4">
-            <h2>Photo</h2>
-            <p>La photo, c'est bien.</p>
-            <a href="{{ path('pma_content_photopage') }}" class="btn btn-default">En savoir plus</a>
+            <h2>{{ 'photo.title'|trans }}</h2>
+            <p>{{ 'photo.description'|trans }}</p>
+            <a href="{{ path('pma_content_photopage') }}" class="btn btn-default">{{ 'readmore'|trans }}</a>
         </div>
         <div class="col-lg-4">
-            <h2>Vidéo</h2>
-            <p>La vidéo, c'est bien.</p>
-            <a class="btn btn-default">En savoir plus</a>
+            <h2>{{ 'video.title'|trans }}</h2>
+            <p>{{ 'video.description'|trans }}</p>
+            <a class="btn btn-default">{{ 'readmore'|trans }}</a>
         </div>
         <div class="col-lg-4">
-            <h2>Internet</h2>
-            <p>Internet, c'est bien.</p>
-            <a class="btn btn-default">En savoir plus</a>
+            <h2>{{ 'internet.title'|trans }}</h2>
+            <p>{{ 'internet.description'|trans }}</p>
+            <a class="btn btn-default">{{ 'readmore'|trans }}</a>
         </div>
     </div>
 {% endblock %}

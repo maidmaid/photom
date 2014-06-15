@@ -1,14 +1,1 @@
-# /photo#mariage
-photo.service1.id: mariage
-photo.service1.title: La photo de mariage
-photo.service1.description: >
-    <p>Cette journée pas comme les autres qui exige du photographe une disponibilité et une sensibilité à la hauteur de cet événement unique...</p>
-    <p>Préparatifs du mariage, accueil des invités, cérémonie religieuse, photos de famille, apéro et soirée à la fois officielle et récréative: tout sera immortalisé dans les règles de l'art...</p>
-photo.service1.image: data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjI1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjMxcHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+NTAweDUwMDwvdGV4dD48L3N2Zz4=
-
-# /photo#reportage
-photo.service1.id: reportage
-photo.service2.title: Le photo-reportage
-photo.service2.description: >
-    <p>mettant en valeur les scènes de la vie de tous les jours, scènes de rues, manifestations de société. Festival de musique, réception officielle, anniversaire de société, réception d'une personnalité, fête populaire : la convivialité du moment, la richesse de la rencontre, l'importance du souvenir sont d'autant d'atouts pour faire appel à un photographe professionnel soucieux d'une qualité d'image parfaitement mixée avec l'émotion du moment...</p>
-photo.service2.image: data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjI1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjMxcHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+NTAweDUwMDwvdGV4dD48L3N2Zz4=
+readmore: 'En savoir plus'

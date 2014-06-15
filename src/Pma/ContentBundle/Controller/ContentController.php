@@ -26,10 +26,10 @@ class ContentController extends Controller
         for ($i = 1; $i <= 2; $i++)
         {
             $services[] = $this->renderView('PmaContentBundle:Service:service.html.twig', array(
-                'id' => $translator->trans("photo.service$i.id"),
-                'title' => $translator->trans("photo.service$i.title"),
-                'description' => $translator->trans("photo.service$i.description"),
-                'image' => $translator->trans("photo.service$i.image"),
+                'id' => $translator->trans("service$i.id", array(), 'photopage'),
+                'title' => $translator->trans("service$i.title", array(), 'photopage'),
+                'description' => $translator->trans("service$i.description", array(), 'photopage'),
+                'image' => $translator->trans("service$i.image", array(), 'photopage'),
                 'right' => $i % 2 == 0
             ));   
         }
