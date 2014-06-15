@@ -1,5 +1,7 @@
 parameters:
-#    pma_content.example.class: Pma\ContentBundle\Example
+    photopage.services.ids:
+        - 'mariage'
+        - 'reportage'
 
 services:
 #    pma_content.example:

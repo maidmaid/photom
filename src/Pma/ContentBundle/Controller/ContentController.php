@@ -22,14 +22,15 @@ class ContentController extends Controller
     {
         /* @var $translator \Symfony\Component\Translation\Translator */
         $translator = $this->get('translator');
-
-        for ($i = 1; $i <= 2; $i++)
+        $ids = $this->container->getParameter('photopage.services.ids');
+        
+        foreach ($ids as $i => $id)
         {
             $services[] = $this->renderView('PmaContentBundle:Service:service.html.twig', array(
-                'id' => $translator->trans("service$i.id", array(), 'photopage'),
-                'title' => $translator->trans("service$i.title", array(), 'photopage'),
-                'description' => $translator->trans("service$i.description", array(), 'photopage'),
-                'image' => $translator->trans("service$i.image", array(), 'photopage'),
+                'id' => $translator->trans("service.$id.id", array(), 'photopage'),
+                'title' => $translator->trans("service.$id.title", array(), 'photopage'),
+                'description' => $translator->trans("service.$id.description", array(), 'photopage'),
+                'image' => $translator->trans("service.$id.image", array(), 'photopage'),
                 'right' => $i % 2 == 0
             ));   
         }
