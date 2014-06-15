@@ -2,6 +2,7 @@ parameters:
     photopage.services.ids:
         - 'mariage'
         - 'reportage'
+        - 'portrait'
 
 services:
 #    pma_content.example:
