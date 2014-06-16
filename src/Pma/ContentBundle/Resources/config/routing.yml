@@ -5,3 +5,27 @@ pma_content_homepage:
 pma_content_photopage:
     pattern:  /photo
     defaults: { _controller: PmaContentBundle:Content:photoPage }
+    
+pma_content_videopage:
+    pattern:  /video
+    defaults: { _controller: PmaContentBundle:Content:videoPage }
+    
+pma_content_internetpage:
+    pattern:  /internet
+    defaults: { _controller: PmaContentBundle:Content:internetPage }
+
+pma_content_mariagepage:
+    pattern:  /mariage
+    defaults: { _controller: PmaContentBundle:Content:mariagePage }
+    
+pma_content_galeriepage:
+    pattern:  /galerie
+    defaults: { _controller: PmaContentBundle:Content:galeriePage }
+    
+pma_content_tarifspage:
+    pattern:  /tarifs
+    defaults: { _controller: PmaContentBundle:Content:tarifsPage }
+
+pma_content_contactpage:
+    pattern:  /contact
+    defaults: { _controller: PmaContentBundle:Content:contactPage }

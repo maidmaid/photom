@@ -37,4 +37,34 @@ class ContentController extends Controller
         
         return $services;
     }
+    
+    public function videoPageAction()
+    {
+        return $this->render('PmaContentBundle:VideoPage:index.html.twig');
+    }
+    
+    public function internetPageAction()
+    {
+        return $this->render('PmaContentBundle:InternetPage:index.html.twig');
+    }
+    
+    public function mariagePageAction()
+    {
+        return $this->render('PmaContentBundle:mariagePage:index.html.twig');
+    }
+    
+    public function galeriePageAction()
+    {
+        return $this->render('PmaContentBundle:GaleriePage:index.html.twig');
+    }
+    
+    public function tarifsPageAction()
+    {
+        return $this->render('PmaContentBundle:TarifsPage:index.html.twig');
+    }
+    
+    public function contactPageAction()
+    {
+        return $this->render('PmaContentBundle:ContactPage:index.html.twig');
+    }
 }
