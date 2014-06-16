@@ -1,8 +1,11 @@
 parameters:
     photopage.services.ids:
-        - 'mariage'
-        - 'reportage'
-        - 'portrait'
+        - mariage
+        - reportage
+        - portrait
+        - sport
+        - art
+        - nature
 
 services:
 #    pma_content.example:
