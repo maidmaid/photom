@@ -1,9 +1,4 @@
 {% extends '::base.html.twig' %}
 {% block body %}
-    <div class="container">
-        {% for service in services %}
-            {{ service|raw }}
-            <hr/>
-        {% endfor %}
-    </div> 
+    {{ include('PmaContentBundle:Service:services.html.twig', {'services': services}) }}
 {% endblock %}
