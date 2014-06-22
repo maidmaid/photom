@@ -12,6 +12,10 @@ parameters:
             - evenement
             - entreprise
             - spectacle
+        carousel:
+            - slide1
+            - slide2
+            - slide3
 services:
 #    pma_content.example:
 #        class: %pma_content.example.class%

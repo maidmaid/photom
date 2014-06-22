@@ -30,4 +30,22 @@ class Items
         
         return $items;
     }
+    
+    public function renderView($view, $domaine)
+    {
+        $items = $this->get($domaine);
+        return $this->container->get('templating')->render($view, array('items' => $items));
+    }
+    
+    public function renderViewListRightLeft($domaine)
+    {
+        $view = 'MaidLayoutBundle:List:right-left.items.html.twig';
+        return $this->renderView($view, $domaine);
+    }
+    
+    public function renderViewCarouselMain($domaine)
+    {
+        $view = 'MaidLayoutBundle:Carousel:main.html.twig';
+        return $this->renderView($view, $domaine);
+    }
 }

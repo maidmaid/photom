@@ -15,9 +15,9 @@ class ContentController extends Controller
     {
         /* @var $items \Maid\LayoutBundle\Data\Items */
         $items = $this->get('items');
-
+        
         return $this->render('PmaContentBundle:PhotoPage:index.html.twig', array(
-            'items' => $items->get('photo')
+            'items' => $items->renderViewListRightLeft('photo')
         ));
     }
     
@@ -27,7 +27,7 @@ class ContentController extends Controller
         $items = $this->get('items');
         
         return $this->render('PmaContentBundle:VideoPage:index.html.twig', array(
-            'items' => $items->get('video')
+            'items' => $items->renderViewListRightLeft('video')
         ));
     }
     
