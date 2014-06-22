@@ -14,11 +14,11 @@ class ContentController extends Controller
     public function photoPageAction()
     {        
         return $this->render('PmaContentBundle:PhotoPage:index.html.twig', array(
-            'services' => $this->getPhotoServices()
+            'items' => $this->getItemsPhoto()
         ));
     }
     
-    private function getPhotoServices()
+    private function getItemsPhoto()
     {
         /* @var $translator \Symfony\Component\Translation\Translator */
         $translator = $this->get('translator');
@@ -26,11 +26,11 @@ class ContentController extends Controller
         
         foreach ($ids as $i => $id)
         {
-            $services[] = $this->renderView('PmaContentBundle:Service:service.html.twig', array(
-                'id' => $translator->trans("service.$id.id", array(), 'photopage'),
-                'title' => $translator->trans("service.$id.title", array(), 'photopage'),
-                'description' => $translator->trans("service.$id.description", array(), 'photopage'),
-                'image' => $translator->trans("service.$id.image", array(), 'photopage'),
+            $services[] = $this->renderView('PmaContentBundle:Item:item.photo.html.twig', array(
+                'id' => $translator->trans("item.photo.$id.id", array(), 'photopage'),
+                'title' => $translator->trans("item.photo.$id.title", array(), 'photopage'),
+                'description' => $translator->trans("item.photo.$id.description", array(), 'photopage'),
+                'image' => $translator->trans("item.photo.$id.image", array(), 'photopage'),
                 'right' => $i % 2 == 0
             ));   
         }

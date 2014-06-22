@@ -1,8 +1,8 @@
 {% extends '::base.html.twig' %}
 {% block body %}
     <div class="container">
-        {% for service in services %}
-            {{ service|raw }}
+        {% for item in items %}
+            {{ item|raw }}
             <hr/>
         {% endfor %}
     </div> 

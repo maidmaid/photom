@@ -15,11 +15,11 @@
     height: 500px;
 }
 
-.service .title {
+.item .title {
     margin-top: 120px;
     font-size: 40px;
 }
 
-.service .description {
+.item .description {
     font-size: 18px;
 }
