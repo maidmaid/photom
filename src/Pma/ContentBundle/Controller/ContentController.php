@@ -32,7 +32,6 @@ class ContentController extends Controller
             $items[$i]['title'] = $translator->trans("$id.title", array(), 'items-' . $domaine);
             $items[$i]['description'] = $translator->trans("$id.description", array(), 'items-' . $domaine);
             $items[$i]['image'] = $translator->trans("$id.image", array(), 'items-' . $domaine);
-            $items[$i]['right'] = $i % 2 == 0;
         }
         
         return $items;

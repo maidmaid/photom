@@ -1,9 +1,9 @@
 <div id="{{ item.id }}" class="row item">
-    <div class="col-lg-7 {% if item.right %} col-lg-push-5 {% endif %}">
+    <div class="col-lg-7 {{ cycle(['', 'col-lg-push-5'], index) }}">
         <h2 class="title">{{ item.title }}</h2>
         <div class="description">{{ item.description|raw }}</div>
     </div>
-        <div class="col-lg-5 {% if item.right %} col-lg-pull-7 {% endif %}">
+        <div class="col-lg-5 {{ cycle(['', 'col-lg-pull-7'], index) }}">
         <img class="img-responsive" alt="" src="{{ item.image }}">
-    </div>
+        </div>
 </div>
