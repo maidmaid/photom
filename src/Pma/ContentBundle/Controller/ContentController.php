@@ -14,23 +14,23 @@ class ContentController extends Controller
     public function photoPageAction()
     {        
         return $this->render('PmaContentBundle:PhotoPage:index.html.twig', array(
-            'items' => $this->getItems('photopage.items.ids', 'photopage')
+            'items' => $this->getItems('photopage')
         ));
     }
     
-    private function getItems($ids, $domaine)
+    private function getItems($domaine)
     {
         /* @var $translator \Symfony\Component\Translation\Translator */
         $translator = $this->get('translator');
-        $ids = $this->container->getParameter($ids);
+        $ids = $this->container->getParameter($domaine . '.items.ids');
         $items = array();
         
         foreach ($ids as $i => $id)
         {
-            $items[$i]['id'] = $translator->trans("item.video.$id.id", array(), $domaine);
-            $items[$i]['title'] = $translator->trans("item.video.$id.title", array(), $domaine);
-            $items[$i]['description'] = $translator->trans("item.video.$id.description", array(), $domaine);
-            $items[$i]['image'] = $translator->trans("item.video.$id.image", array(), $domaine);
+            $items[$i]['id'] = $translator->trans("$id.id", array(), $domaine);
+            $items[$i]['title'] = $translator->trans("$id.title", array(), $domaine);
+            $items[$i]['description'] = $translator->trans("$id.description", array(), $domaine);
+            $items[$i]['image'] = $translator->trans("$id.image", array(), $domaine);
             $items[$i]['right'] = $i % 2 == 0;
         }
         
@@ -40,7 +40,7 @@ class ContentController extends Controller
     public function videoPageAction()
     {
         return $this->render('PmaContentBundle:VideoPage:index.html.twig', array(
-            'items' => $this->getItems('videopage.items.ids', 'videopage')
+            'items' => $this->getItems('videopage')
         ));
     }
     
