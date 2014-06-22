@@ -1,16 +1,16 @@
 parameters:
     photopage.items.ids:
-        - mariage
-        - reportage
-        - portrait
-        - sport
-        - art
-        - nature
+        - item.photo.mariage
+        - item.photo.reportage
+        - item.photo.portrait
+        - item.photo.sport
+        - item.photo.art
+        - item.photo.nature
     videopage.items.ids:
-        - mariage
-        - evenement
-        - entreprise
-        - spectacle
+        - item.video.mariage
+        - item.video.evenement
+        - item.video.entreprise
+        - item.video.spectacle
 
 services:
 #    pma_content.example:
