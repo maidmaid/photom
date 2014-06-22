@@ -23,16 +23,15 @@ class ContentController extends Controller
         /* @var $translator \Symfony\Component\Translation\Translator */
         $translator = $this->get('translator');
         $ids = $this->container->getParameter('photopage.items.ids');
+        $items = array();
         
         foreach ($ids as $i => $id)
         {
-            $items[] = $this->renderView('PmaContentBundle:Item:item.photo.html.twig', array(
-                'id' => $translator->trans("item.photo.$id.id", array(), 'photopage'),
-                'title' => $translator->trans("item.photo.$id.title", array(), 'photopage'),
-                'description' => $translator->trans("item.photo.$id.description", array(), 'photopage'),
-                'image' => $translator->trans("item.photo.$id.image", array(), 'photopage'),
-                'right' => $i % 2 == 0
-            ));   
+            $items[$i]['id'] = $translator->trans("item.photo.$id.id", array(), 'photopage');
+            $items[$i]['title'] = $translator->trans("item.photo.$id.title", array(), 'photopage');
+            $items[$i]['description'] = $translator->trans("item.photo.$id.description", array(), 'photopage');
+            $items[$i]['image'] = $translator->trans("item.photo.$id.image", array(), 'photopage');
+            $items[$i]['right'] = $i % 2 == 0;
         }
         
         return $items;

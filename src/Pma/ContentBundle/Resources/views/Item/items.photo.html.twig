@@ -1,6 +1,6 @@
 <div class="container items">
     {% for item in items %}
-        {{ item|raw }}
+        {{ include('PmaContentBundle:Item:item.photo.html.twig', {'item': item}) }}
         <hr/>
     {% endfor %}
 </div> 
