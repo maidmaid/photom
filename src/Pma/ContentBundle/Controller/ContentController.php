@@ -22,11 +22,11 @@ class ContentController extends Controller
     {
         /* @var $translator \Symfony\Component\Translation\Translator */
         $translator = $this->get('translator');
-        $ids = $this->container->getParameter('photopage.services.ids');
+        $ids = $this->container->getParameter('photopage.items.ids');
         
         foreach ($ids as $i => $id)
         {
-            $services[] = $this->renderView('PmaContentBundle:Item:item.photo.html.twig', array(
+            $items[] = $this->renderView('PmaContentBundle:Item:item.photo.html.twig', array(
                 'id' => $translator->trans("item.photo.$id.id", array(), 'photopage'),
                 'title' => $translator->trans("item.photo.$id.title", array(), 'photopage'),
                 'description' => $translator->trans("item.photo.$id.description", array(), 'photopage'),
@@ -35,7 +35,7 @@ class ContentController extends Controller
             ));   
         }
         
-        return $services;
+        return $items;
     }
     
     public function videoPageAction()

@@ -1,5 +1,5 @@
 parameters:
-    photopage.services.ids:
+    photopage.items.ids:
         - mariage
         - reportage
         - portrait
