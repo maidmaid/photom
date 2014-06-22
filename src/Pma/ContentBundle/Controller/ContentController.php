@@ -12,35 +12,22 @@ class ContentController extends Controller
     }
     
     public function photoPageAction()
-    {        
-        return $this->render('PmaContentBundle:PhotoPage:index.html.twig', array(
-            'items' => $this->getItems('photo')
-        ));
-    }
-    
-    private function getItems($domaine)
     {
-        /* @var $translator \Symfony\Component\Translation\Translator */
-        $translator = $this->get('translator');
-        $parameters = $this->container->getParameter('items');
-        $ids = $parameters[$domaine]; 
-        $items = array();
-        
-        foreach($ids as $i => $id)
-        {
-            $items[$i]['id'] = $translator->trans("$id.id", array(), 'items-' . $domaine);
-            $items[$i]['title'] = $translator->trans("$id.title", array(), 'items-' . $domaine);
-            $items[$i]['description'] = $translator->trans("$id.description", array(), 'items-' . $domaine);
-            $items[$i]['image'] = $translator->trans("$id.image", array(), 'items-' . $domaine);
-        }
-        
-        return $items;
+        /* @var $items \Maid\LayoutBundle\Data\Items */
+        $items = $this->get('items');
+
+        return $this->render('PmaContentBundle:PhotoPage:index.html.twig', array(
+            'items' => $items->get('photo')
+        ));
     }
     
     public function videoPageAction()
     {
+        /* @var $items \Maid\LayoutBundle\Data\Items */
+        $items = $this->get('items');
+        
         return $this->render('PmaContentBundle:VideoPage:index.html.twig', array(
-            'items' => $this->getItems('video')
+            'items' => $items->get('video')
         ));
     }
     
