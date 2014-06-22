@@ -1,17 +1,17 @@
 parameters:
     items:
         photo:
-            - item.photo.mariage
-            - item.photo.reportage
-            - item.photo.portrait
-            - item.photo.sport
-            - item.photo.art
-            - item.photo.nature
+            - mariage
+            - reportage
+            - portrait
+            - sport
+            - art
+            - nature
         video:
-            - item.video.mariage
-            - item.video.evenement
-            - item.video.entreprise
-            - item.video.spectacle
+            - mariage
+            - evenement
+            - entreprise
+            - spectacle
 services:
 #    pma_content.example:
 #        class: %pma_content.example.class%
