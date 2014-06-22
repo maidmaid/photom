@@ -1,24 +1,24 @@
 mariage.id: mariage
 mariage.title: 'La photo de mariage'
 mariage.description: '<p>Cette journée pas comme les autres qui exige du photographe une disponibilité et une sensibilité à la hauteur de cet événement unique...</p> <p>Préparatifs du mariage, accueil des invités, cérémonie religieuse, photos de famille, apéro et soirée à la fois officielle et récréative: tout sera immortalisé dans les règles de l''art...</p>'
-mariage.image: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjI1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjMxcHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+NTAweDUwMDwvdGV4dD48L3N2Zz4='
+mariage.image: img/items/bob.jpg
 reportage.id: reportage
 reportage.title: 'Le photo-reportage'
 reportage.description: '<p>Mettant en valeur les scènes de la vie de tous les jours, scènes de rues, manifestations de société. Festival de musique, réception officielle, anniversaire de société, réception d''une personnalité, fête populaire : la convivialité du moment, la richesse de la rencontre, l''importance du souvenir sont d''autant d''atouts pour faire appel à un photographe professionnel soucieux d''une qualité d''image parfaitement mixée avec l''émotion du moment...</p>'
-reportage.image: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjI1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjMxcHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+NTAweDUwMDwvdGV4dD48L3N2Zz4='
+reportage.image: img/items/bob.jpg
 portrait.id: portrait
 portrait.title: 'Le photo-portrait'
 portrait.description: 'Décliné avant tout dans un décor naturel, "en situation"... Les reportages donnent à chaque instant l''occasion de "croquer" un visage dans ce qu''il y a de plus expressif, de plus original. Dans une relation de complicité, le photographe et son modèle tisse une toile où il est permis de mettre en valeur le meilleur de chacun à travers des regards, des sourires, de la tendresse, de la spontanéité à l''état pur... oui, on réussit toujours à trouver ces instants qui donnent à la photographie ses lettres de noblesse et de magie...'
-portrait.image: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjI1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjMxcHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+NTAweDUwMDwvdGV4dD48L3N2Zz4='
+portrait.image: img/items/bob.jpg
 sport.id: sport
 sport.title: 'La photo sportive'
 sport.description: 'En symbiose parfaite avec l''être humain dévoilé dans l''effort, le courage, l''adresse, la compétence..., un style forcément riche d''émotions multiples... de la course automobile, au match de foot, saut à l''élastique ou tout type de tournoi en salle ou plein air...'
-sport.image: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjI1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjMxcHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+NTAweDUwMDwvdGV4dD48L3N2Zz4='
+sport.image: img/items/bob.jpg
 art.id: art
 art.title: 'La photo artistique'
 art.description: 'Plus ouverte sur la culture, l''expression corporelle, teintée de rencontre et de solidarité comme par exemple dans la couverture photo de spectacles de danse, de concerts, de pièces de théâtre et autres revues villageoises... Un clin d''oeil qui se retrouve aussi dans les clichés d''architectures, de bâtiments toujours agréables à saisir...'
-art.image: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjI1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjMxcHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+NTAweDUwMDwvdGV4dD48L3N2Zz4='
+art.image: img/items/bob.jpg
 nature.id: nature
 nature.title: 'La photo nature et paysage'
 nature.description: 'Dévoilant le charme des beautés naturelles, par tous les temps et toutes les saisons... Ajoutez parfois un point de vue pris par hélicoptère offrant un angle très original sur nos magnifiques paysages...'
-nature.image: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjI1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjMxcHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+NTAweDUwMDwvdGV4dD48L3N2Zz4='
+nature.image: img/items/bob.jpg

@@ -4,6 +4,6 @@
         <div class="description">{{ item.description|raw }}</div>
     </div>
         <div class="col-lg-5 {{ cycle(['', 'col-lg-pull-7'], index) }}">
-        <img class="img-responsive" alt="" src="{{ item.image }}">
+            <img class="img-responsive" alt="" src="{{ asset(item.image) }}">
         </div>
 </div>
