@@ -1,9 +1,4 @@
 {% extends '::base.html.twig' %}
 {% block body %}
-    <div class="container">
-        {% for item in items %}
-            {{ item|raw }}
-            <hr/>
-        {% endfor %}
-    </div> 
+    {{ include('PmaContentBundle:Item:item.photo.html.twig', {'items': items}) }}
 {% endblock %}
