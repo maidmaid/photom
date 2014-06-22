@@ -1,4 +1,4 @@
 {% extends '::base.html.twig' %}
 {% block body %}
-<h1>VideoPage</h1>
+{{ include('PmaContentBundle:Layout:list.right-left.items.html.twig', {'items': items}) }}
 {% endblock %}
