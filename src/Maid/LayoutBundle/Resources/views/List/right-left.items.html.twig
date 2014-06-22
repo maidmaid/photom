@@ -1,6 +1,6 @@
 <div class="container items">
     {% for item in items %}
-        {{ include('PmaContentBundle:Layout:list.right-left.item.html.twig', {'item': item, 'index': loop.index}) }}
+        {{ include('MaidLayoutBundle:List:right-left.item.html.twig', {'item': item, 'index': loop.index}) }}
         <hr/>
     {% endfor %}
 </div> 
