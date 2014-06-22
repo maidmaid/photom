@@ -1,17 +1,17 @@
 parameters:
-    photopage.items.ids:
-        - item.photo.mariage
-        - item.photo.reportage
-        - item.photo.portrait
-        - item.photo.sport
-        - item.photo.art
-        - item.photo.nature
-    videopage.items.ids:
-        - item.video.mariage
-        - item.video.evenement
-        - item.video.entreprise
-        - item.video.spectacle
-
+    items:
+        photo:
+            - item.photo.mariage
+            - item.photo.reportage
+            - item.photo.portrait
+            - item.photo.sport
+            - item.photo.art
+            - item.photo.nature
+        video:
+            - item.video.mariage
+            - item.video.evenement
+            - item.video.entreprise
+            - item.video.spectacle
 services:
 #    pma_content.example:
 #        class: %pma_content.example.class%
