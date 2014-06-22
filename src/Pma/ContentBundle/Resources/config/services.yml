@@ -6,6 +6,11 @@ parameters:
         - sport
         - art
         - nature
+    videopage.items.ids:
+        - mariage
+        - evenement
+        - entreprise
+        - spectacle
 
 services:
 #    pma_content.example:
